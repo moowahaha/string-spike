@@ -19,7 +19,9 @@ def get_mem
   `ps -o rss= -p #{Process.pid}`.to_i
 end
 
-[FerretSearch, LinearSearch, TrieSearch].each do |search_class|
+puts "Results from \"#{__FILE__} #{to_match}\"...\n\n"
+
+[RegexpSearch, FerretSearch, LinearSearch, TrieSearch].each do |search_class|
   puts search_class
 
   instance = ''

@@ -1,34 +1,46 @@
-Last output from "./dict_match.rb hell"...
+Results from "./dict_match.rb hell"...
 
-  FerretSearch
-        user     system      total        real
-  Memory Before: 23992
-  init  6.420000   0.080000   6.500000 (  6.539285)
-  search  0.010000   0.000000   0.010000 (  0.011495)
-  Memory After: 48204
-  Memory Delta: 24212
-  
-  ["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred"]
-  
-  
-  LinearSearch
-        user     system      total        real
-  Memory Before: 48204
-  init  0.000000   0.000000   0.000000 (  0.000414)
-  search  0.140000   0.000000   0.140000 (  0.138213)
-  Memory After: 49124
-  Memory Delta: 920
-  
-  ["beshell", "bombshell", "branchellion", "brighella", "brothellike", "chellean", "chello", "clamshell", "cockleshell", "cyphella", "cyphellate", "dishellenize", "dratchell", "eberthella", "ecyphellate", "eggshell", "enshell", "espichellite", "figshell", "hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly", "inshell", "misohellene", "mitchella", "morchella", "nutshell", "orchella", "othello", "oystershell", "panhellenic", "panhellenios", "panhellenism", "panhellenist", "panhellenium", "papershell", "phellandrene", "phellem", "phellodendron", "phelloderm", "phellodermal", "phellogen", "phellogenetic", "phellogenic", "phellonic", "phelloplastic", "phelloplastics", "philhellene", "philhellenic", "philhellenism", "philhellenist", "philohellenian", "pseudophellandrene", "rakehell", "rakehellish", "rakehelly", "ratchelly", "richellite", "rochelle", "schelling", "schellingian", "schellingianism", "schellingism", "schelly", "shell", "shellac", "shellacker", "shellacking", "shellapple", "shellback", "shellblow", "shellblowing", "shellbound", "shellburst", "shellcracker", "shelleater", "shelled", "sheller", "shelleyan", "shelleyana", "shellfire", "shellfish", "shellfishery", "shellflower", "shellful", "shellhead", "shelliness", "shelling", "shellman", "shellmonger", "shellproof", "shellshake", "shellum", "shellwork", "shellworker", "shelly", "shellycoat", "slitshell", "unshell", "unshelled", "unshelling", "vachellia", "zannichellia", "zannichelliaceae", "zooxanthella", "zooxanthellae"]
-  
-  
-  TrieSearch
-        user     system      total        real
-  Memory Before: 49124
-  init 12.660000   0.210000  12.870000 ( 12.941946)
-  search  0.000000   0.000000   0.000000 (  0.000012)
-  Memory After: 165620
-  Memory Delta: 116496
-  
-  ["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+RegexpSearch
+      user     system      total        real
+Memory Before: 33428
+init  0.060000   0.000000   0.060000 (  0.063750)
+search  0.020000   0.010000   0.030000 (  0.022198)
+Memory After: 38296
+Memory Delta: 4868
+
+["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+
+
+FerretSearch
+      user     system      total        real
+Memory Before: 38296
+init 10.700000   0.200000  10.900000 ( 10.954653)
+search  0.050000   0.000000   0.050000 (  0.050572)
+Memory After: 64956
+Memory Delta: 26660
+
+["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred"]
+
+
+LinearSearch
+      user     system      total        real
+Memory Before: 64956
+init  0.000000   0.000000   0.000000 (  0.000032)
+search  0.120000   0.010000   0.130000 (  0.123775)
+Memory After: 64956
+Memory Delta: 0
+
+["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+
+
+TrieSearch
+      user     system      total        real
+Memory Before: 64956
+init 14.570000   0.310000  14.880000 ( 14.961749)
+search  0.000000   0.000000   0.000000 (  0.000010)
+Memory After: 358396
+Memory Delta: 293440
+
+["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+
 

@@ -6,8 +6,10 @@ class LinearSearch
   def search string
     matches = []
 
+    re = Regexp.new("^#{string}")
+
     @words.map do |word|
-      matches << word if word.include?(string)
+      matches << word if word =~ re
     end
 
     matches
