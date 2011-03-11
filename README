@@ -1,38 +1,42 @@
-Results from "./match.rb hawt"...
+Results from "./match.rb melb"...
 
 RegexpSearch
       user     system      total        real
 Memory Before: 10496
-init  0.000000   0.000000   0.000000 (  0.002781)
-search  0.010000   0.000000   0.010000 (  0.006602)
+init  0.000000   0.000000   0.000000 (  0.002654)
+search  0.010000   0.000000   0.010000 (  0.006345)
 Memory After: 12312
 Memory Delta: 1816
+
 
 
 FerretSearch
       user     system      total        real
 Memory Before: 12316
-init  0.780000   0.030000   0.810000 (  0.832414)
-search  0.030000   0.000000   0.030000 (  0.031253)
-Memory After: 30816
-Memory Delta: 18500
+init  0.770000   0.020000   0.790000 (  0.799963)
+search  0.030000   0.000000   0.030000 (  0.030858)
+Memory After: 30824
+Memory Delta: 18508
+
 
 
 LinearSearch
       user     system      total        real
-Memory Before: 30816
-init  0.370000   0.050000   0.420000 (  0.430170)
-search  0.020000   0.000000   0.020000 (  0.014661)
-Memory After: 76964
-Memory Delta: 46148
+Memory Before: 30824
+init  0.380000   0.050000   0.430000 (  0.433561)
+search  0.020000   0.000000   0.020000 (  0.015172)
+Memory After: 76968
+Memory Delta: 46144
+
 
 
 TrieSearch
       user     system      total        real
-Memory Before: 76968
-init  1.540000   0.100000   1.640000 (  1.642727)
-search  0.000000   0.000000   0.000000 (  0.000028)
-Memory After: 162892
-Memory Delta: 85924
+Memory Before: 76972
+init  1.870000   0.090000   1.960000 (  2.005561)
+search  0.000000   0.000000   0.000000 (  0.000034)
+Memory After: 142796
+Memory Delta: 65824
+
 
 

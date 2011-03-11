@@ -38,7 +38,7 @@ puts "Results from \"#{__FILE__} #{to_match}\"...\n\n"
 
   puts "\n"
 
-  p matches
+  $stderr.puts matches.inspect
 
   puts "\n\n"
 end

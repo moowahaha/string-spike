@@ -11,7 +11,7 @@ class TrieSearch
       char_list = ''
 
       key.split('').each do |char|
-        char_list << char
+        char_list = "#{char_list}#{char}".to_sym
         @trie[char_list] ||= []
         @trie[char_list] << value
       end
@@ -19,6 +19,6 @@ class TrieSearch
   end
 
   def search string
-    (@trie[string] || []).flatten
+    (@trie[string.to_sym] || []).flatten
   end
 end
