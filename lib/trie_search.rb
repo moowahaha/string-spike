@@ -1,18 +1,24 @@
 class TrieSearch
-  def initialize words
+  def initialize data
     @trie = {}
 
-    words.each do |word|
+    data.split("\n").each do |line|
+      key, value = line.strip.split("=")
+      next unless value
+
+      value = JSON.parse(value)
+
       char_list = ''
-      word.split('').each do |char|
+
+      key.split('').each do |char|
         char_list << char
         @trie[char_list] ||= []
-        @trie[char_list] << word
+        @trie[char_list] << value
       end
     end
   end
 
   def search string
-    @trie[string]
+    (@trie[string] || []).flatten
   end
 end

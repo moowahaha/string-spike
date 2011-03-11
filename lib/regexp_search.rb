@@ -1,9 +1,11 @@
 class RegexpSearch
-  def initialize words
-    @words = "\n" + words.join("\n")
+  def initialize data
+    @data = data
   end
 
   def search string
-    @words.scan(/^(#{string}.*)\n/).flatten
+    @data.scan(/^#{string}.*=(.+)\n/).flatten.map do |result|
+      JSON.parse(result)
+    end
   end
 end

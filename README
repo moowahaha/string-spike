@@ -1,46 +1,38 @@
-Results from "./dict_match.rb hell"...
+Results from "./match.rb hawt"...
 
 RegexpSearch
       user     system      total        real
-Memory Before: 33428
-init  0.060000   0.000000   0.060000 (  0.063750)
-search  0.020000   0.010000   0.030000 (  0.022198)
-Memory After: 38296
-Memory Delta: 4868
-
-["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+Memory Before: 10496
+init  0.000000   0.000000   0.000000 (  0.002781)
+search  0.010000   0.000000   0.010000 (  0.006602)
+Memory After: 12312
+Memory Delta: 1816
 
 
 FerretSearch
       user     system      total        real
-Memory Before: 38296
-init 10.700000   0.200000  10.900000 ( 10.954653)
-search  0.050000   0.000000   0.050000 (  0.050572)
-Memory After: 64956
-Memory Delta: 26660
-
-["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred"]
+Memory Before: 12316
+init  0.780000   0.030000   0.810000 (  0.832414)
+search  0.030000   0.000000   0.030000 (  0.031253)
+Memory After: 30816
+Memory Delta: 18500
 
 
 LinearSearch
       user     system      total        real
-Memory Before: 64956
-init  0.000000   0.000000   0.000000 (  0.000032)
-search  0.120000   0.010000   0.130000 (  0.123775)
-Memory After: 64956
-Memory Delta: 0
-
-["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+Memory Before: 30816
+init  0.370000   0.050000   0.420000 (  0.430170)
+search  0.020000   0.000000   0.020000 (  0.014661)
+Memory After: 76964
+Memory Delta: 46148
 
 
 TrieSearch
       user     system      total        real
-Memory Before: 64956
-init 14.570000   0.310000  14.880000 ( 14.961749)
-search  0.000000   0.000000   0.000000 (  0.000010)
-Memory After: 358396
-Memory Delta: 293440
-
-["hell", "helladian", "helladic", "helladotherium", "hellandite", "hellanodic", "hellbender", "hellborn", "hellbox", "hellbred", "hellbroth", "hellcat", "helldog", "helleboraceous", "helleboraster", "hellebore", "helleborein", "helleboric", "helleborin", "helleborine", "helleborism", "helleborus", "hellelt", "hellen", "hellene", "hellenian", "hellenic", "hellenically", "hellenicism", "hellenism", "hellenist", "hellenistic", "hellenistical", "hellenistically", "hellenisticism", "hellenization", "hellenize", "hellenizer", "hellenocentric", "hellenophile", "heller", "helleri", "hellespont", "hellespontine", "hellgrammite", "hellhag", "hellhole", "hellhound", "hellicat", "hellier", "hellion", "hellish", "hellishly", "hellishness", "hellkite", "hellness", "hello", "hellroot", "hellship", "helluo", "hellward", "hellweed", "helly"]
+Memory Before: 76968
+init  1.540000   0.100000   1.640000 (  1.642727)
+search  0.000000   0.000000   0.000000 (  0.000028)
+Memory After: 162892
+Memory Delta: 85924
 
 

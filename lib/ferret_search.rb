@@ -3,21 +3,22 @@ require 'ferret'
 class FerretSearch
   include Ferret
 
-  def initialize words
+  def initialize data
     @index = Index::Index.new()
 
-    words.each do |word|
-      @index << {:word => word}
+    data.split("\n").each do |line|
+      key, value = line.strip.split("=")
+      @index << {:key => key, :value => value} if value
     end
   end
 
   def search string
     results = []
 
-    @index.search_each("#{string}*") do |id, score|
-      results << @index[id][:word]
+    @index.search_each("key: #{string}*") do |id, score|
+      results << JSON.parse(@index[id][:value])
     end
 
-    results
+    results.flatten
   end
 end

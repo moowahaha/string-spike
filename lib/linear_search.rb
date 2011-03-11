@@ -1,6 +1,11 @@
 class LinearSearch
-  def initialize words
-    @words = words
+  def initialize data
+    @data = {}
+
+    data.split("\n").each do |line|
+      key, value = line.strip.split("=")
+      @data[key] = JSON.parse(value) if value
+    end
   end
 
   def search string
@@ -8,10 +13,10 @@ class LinearSearch
 
     re = Regexp.new("^#{string}")
 
-    @words.map do |word|
-      matches << word if word =~ re
+    @data.each do |key, value|
+      matches << value if key =~ re
     end
 
-    matches
+    matches.flatten
   end
 end
